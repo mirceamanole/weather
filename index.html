@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e459f49222.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form>
+        <input type="text" placeholder="Search Location" id="search">
+        <button id="search" type="submit">&#128270</button>
+    </form>
+    <div class="main">
+        <div class="weather-info">
+            <div class="weather-info-description">Innorat</div>
+            <div class="weather-info-city">Bucuresti</div>
+            <div class="weather-info-day">sambata</div>
+            <div class="weather-info-date">4Iunie</div>
+            <div class="weather-info-time">1:06PM</div>
+            <div class="weather-info-temperature">11 deg</div>
+        </div>
+        <div class="weather-details-container">
+            <div class="weather-details">
+                <i class='fas'>&#xf769;</i>
+                <div class="weather-details-info">
+                    <div class="weather-details-label">Feels like</div>
+                    <div class="weather-details-data" id="feels-like">10 deg</div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <i class='fas'>&#xf773;</i>
+                <div class="weather-details-info">
+                    <div class="weather-details-label">Humidity</div>
+                    <div class="weather-details-data" id="humidity">10 deg</div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <i class='fas'>&#xf72e;</i>
+                <div class="weather-details-info">
+                    <div class="weather-details-label">Wind Speed</div>
+                    <div class="weather-details-data" id="wind-speed">10 deg</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="forecast">
+        <div class="forecast-daily">
+            <div class="forecast-daily-day" id="day-plus-one">Miercuri</div>
+            <div class="forecast-daily-temperature" id="temp-plus-one">10 deg</div>
+        </div>
+        <div class="forecast-daily">
+            <div class="forecast-daily-day" id="day-plus-two">joi</div>
+            <div class="forecast-daily-temperature" id="temp-plus-two">10 deg</div>
+        </div>
+        <div class="forecast-daily">
+            <div class="forecast-daily-day" id="day-plus-three">vineri</div>
+            <div class="forecast-daily-temperature" id="temp-plus-three">10 deg</div>
+        </div>
+        <div class="forecast-daily">
+            <div class="forecast-daily-day" id="day-plus-four">sambata</div>
+            <div class="forecast-daily-temperature" id="temp-plus-four">10 deg</div>
+        </div>
+        <div class="forecast-daily">
+            <div class="forecast-daily-day" id="day-plus-five">duminica</div>
+            <div class="forecast-daily-temperature" id="temp-plus-five">10 deg</div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
